@@ -1,0 +1,79 @@
+    body {background-color: #262626; 
+        color: black; 
+        margin: 0; }
+
+    h1, h2, h3 {font-family:  futura, arial, sans-serif;}
+
+    p {font-family:  sans-serif, arial;}
+
+    p:first-letter{font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; 
+        font-size: 25pt; 
+        font-style: italic;}
+    
+    #beanie{height:100px;
+            width:100px; 
+            border:3px;}
+
+    #navigation{border-style: dotted;
+        border-width: 1px;
+        border-color: black; 
+        padding:4px; 
+        font-size: 10pt; 
+        color: black; 
+        position:fixed; 
+        width:100%; 
+        background-color: #eee; 
+        font-family: arial, sans-serif; text-align: center;}
+
+    #top{color: black; 
+        background-image: URL("http://i.imgur.com/lS2oDmh.gif"); 
+        background-size: cover; 
+        height:500px; 
+        background-repeat: no-repeat;}
+
+     #mastheadcontain{width:100%; 
+        text-align: center;}   
+        
+        #masthead{display: inline-block; 
+            padding: 150px;}
+
+    #aboutouter{background-color: #E6E6E6; /*4C4C4C*/
+        text-align: center; 
+        padding: 20px}           
+
+        #aboutinner{ 
+            border-left-style: dotted; 
+            border-left-color: gray;                 
+            max-width:800px;
+            /*text-align: center; */
+            margin: 0 auto;
+            padding: 10px;
+            background-color: white;}
+
+    #contentouter{ padding: 20px; 
+        background-color: white; /*262626*/            
+        text-align: center;
+        margin: 0 auto;} 
+
+        #contentinner{/*border-width: 2px; 
+            border-style: dotted; 
+            border-color: gray; */
+            border-left : dotted;
+            border-left-color: gray;
+            max-width:800px; 
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #eee;}
+
+    #footer{background-color: #eee;  
+        text-align:center;}
+
+    .strong{font-weight: bold; font-size: 14pt; color:#993D00; } /* This is an ID declaration*/
+   /* #top{background-image:URL("http://i.imgur.com/PE1Q9z9.jpg")}*/
+    .italic{font-style: italic;}
+
+    a:link {color:#853385; }    /* unvisited link */
+    a:visited {color:#C299C2;} /* visited link */
+    a:hover {color: red;}   /* mouse over link */
+    a:active {color:#0000FF;}  /* selected link */
+    
